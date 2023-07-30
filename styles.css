@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Lisu+Bosa:wght@600&display=swap');
+body{
+background-color: darkolivegreen;
+font-family: kanit;
+font-weight: 300;
+padding-top: 5%;
+}
+h1 {
+    font-family: lisu bosa;
+    color: whitesmoke;
+}
+#img {
+    border-radius: 50%;
+    height: 20%;
+}
+input {
+    width: 50%;
+    height: 7%;
+    font-family: kanit;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.box {
+    width: 27%;
+    height: 40%;
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 10%;
+    display: inline-block;
+    margin: 5%;
+    padding: 10px;
+    cursor: pointer;
+}
+.veg{
+    height: 40%;
+    width: 80%;
+    overflow:hidden;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.item {
+    font-size: 40px;
+    font-family: kanit;
+    float: left;
+}
+.price {
+    font-size: 20px;
+}
